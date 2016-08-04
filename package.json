@@ -1,0 +1,23 @@
+{
+  "name": "website-template-mini-company",
+  "version": "1.0.0",
+  "description": "A web page site ideal for smaller companies and startups",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web",
+    "html",
+    "template"
+  ],
+  "author": "Simon Christensson <simonchristensson@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-dir": "^0.3.0",
+    "gulp": "^3.9.1",
+    "gulp-html-minifier": "^0.1.8",
+    "gulp-uglify": "^2.0.0",
+    "mkdirp": "^0.5.1"
+  }
+}

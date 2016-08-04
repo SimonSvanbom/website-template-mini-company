@@ -1,0 +1,21 @@
+@font-face {
+	font-family: "firasanscondensed-light3";
+    src: url("../fonts/fira-sans-condensed/firasanscondensed-light.otf");
+}
+
+
+@font-face {
+	font-family: "firasanscondensed-light";
+    src: url("../fonts/comme/Comme-Light.ttf");
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "firasanscondensed-light", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 100;
+}
