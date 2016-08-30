@@ -183,6 +183,23 @@ hr.small {
      position: relative;
 }
 
+.header-main-text {
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+    z-index: 3;
+}
+
+.header-main-bar {
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
 /* About */
 
 .about {
@@ -194,19 +211,7 @@ hr.small {
 /* Services */
 
 .services {
-   // padding: 100px 0;
-    //padding-top: 100px;
-    //background: url(../img/record_dark.jpg) no-repeat center center scroll;
-    //-webkit-background-size: cover;
-    //-moz-background-size: cover;
-    //background-size: cover;
-    //-o-background-size: cover;
-
-
-   // color: #e6e6e6;
-   // margin-top: 80px;
     font-size: 18px;
-
 }
 
 .service-item {
@@ -219,7 +224,7 @@ hr.small {
 
 .service-item > p {
    font-size: 20px;
-   min-height: 140px;
+   min-height: 120px;
     max-width: 400px;
     margin: auto;
 }
@@ -315,55 +320,37 @@ footer {
     color: white;
 }
 .social-media-header-container {
-    position: absolute;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    //opacity: 0.6;
+    color: black;
 
-    //top: 15px;
-     background-color: white;
-     z-index: 2;
-    //bottom: 40px;
-        width: 100%;
 }
 .social-media-header {
     display:table;
-    font-size: 9px;
+    font-size: 20px;
     cursor: pointer;
     position: relative;
-    //margin: auto;
+    margin: auto;
     text-align: center;
     background-color: white;
-
+    color: black;
 }
 
 .social-media-header > span {
-    //background-color: rgba(0,0,0,0.8);
     color: black;
     z-index: 99;
-    //height: 50px;
-    //display: inline-block;
     display:table-cell;
     vertical-align:middle;
     padding-left: 30px;
     padding-right: 30px;
-
     position: relative;
-    //padding: 5px;
-    //margin-bottom: 5px;
-  
-  //  float: left;
 }
 
 .social-media-header > span:hover {
-    //background-color: rgba(0,0,0,0.8);
     color: black;
-
 }
 
 .social-media-header a {
    color: black;
-   opacity: 0.6;
+   opacity: 0.8;
 }
 
 .social-media-header a:hover {
@@ -385,6 +372,10 @@ footer {
     max-width: 500px;
     margin: auto;
     text-align: center;
+}
+
+.service-container {
+    font-size: 15px;
 }
 
 @media(max-width: 991px) {
@@ -411,8 +402,25 @@ footer {
     }
 
     .service-item > p {
-        min-height: 0px
+        min-height: 0px;
         }
+
+    .social-media-header > span {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 18px;
+    }
+
 }
 
+@media(max-width:345px) {
+     .header-main-text {
+        text-align: left;
+        margin-left: 10px;
+        font-size: 22px;
+    }
 
+    .social-media-header > span {
+        font-size: 15px;
+    }
+}
